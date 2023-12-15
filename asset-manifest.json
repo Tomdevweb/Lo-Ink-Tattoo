@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Lo-Ink-Tattoo/static/css/main.5eb215b2.css",
+    "main.js": "/Lo-Ink-Tattoo/static/js/main.78415e0d.js",
+    "static/media/IMG_1004.jpg": "/Lo-Ink-Tattoo/static/media/IMG_1004.5475f4049900866ce751.jpg",
+    "static/media/IMG_1006.jpg": "/Lo-Ink-Tattoo/static/media/IMG_1006.05de5e306d3fa1004826.jpg",
+    "static/media/portrait2.jpg": "/Lo-Ink-Tattoo/static/media/portrait2.fcf5681b1995ad21bbdb.jpg",
+    "static/media/IMG_1005.jpg": "/Lo-Ink-Tattoo/static/media/IMG_1005.5b45eb634447d3639677.jpg",
+    "static/media/IMG_1007.jpg": "/Lo-Ink-Tattoo/static/media/IMG_1007.4377a16b96b07741c9e5.jpg",
+    "static/media/IMG_0997.jpg": "/Lo-Ink-Tattoo/static/media/IMG_0997.288299d0f86a153e9c40.jpg",
+    "static/media/IMG_1009.jpg": "/Lo-Ink-Tattoo/static/media/IMG_1009.c48646b535f0008182f0.jpg",
+    "static/media/logo.png": "/Lo-Ink-Tattoo/static/media/logo.0fd66be031ea3908b32a.png",
+    "static/media/IMG_1008.jpg": "/Lo-Ink-Tattoo/static/media/IMG_1008.d78bc5e948908a92e847.jpg",
+    "static/media/IMG_1010.jpg": "/Lo-Ink-Tattoo/static/media/IMG_1010.42dd2c94d38b5af2dbd2.jpg",
+    "static/media/IMG_1002.jpg": "/Lo-Ink-Tattoo/static/media/IMG_1002.29b70eb64a77ce77f649.jpg",
+    "static/media/loinkbaw.jpg": "/Lo-Ink-Tattoo/static/media/loinkbaw.529b88f2437215e1d78b.jpg",
+    "static/media/TitilliumWeb-Regular.ttf": "/Lo-Ink-Tattoo/static/media/TitilliumWeb-Regular.e53e0538893d432e0635.ttf",
+    "static/media/go3v2.ttf": "/Lo-Ink-Tattoo/static/media/go3v2.59287eb584ab9acf3e25.ttf",
+    "static/media/instagram.svg": "/Lo-Ink-Tattoo/static/media/instagram.5c7da50b4c24a1205467380152cf6c8b.svg",
+    "static/media/location.svg": "/Lo-Ink-Tattoo/static/media/location.d366dfa41707634ff4b48dc540eafd56.svg",
+    "static/media/Faq-icon.svg": "/Lo-Ink-Tattoo/static/media/Faq-icon.3ed7720c014a60135e09b2e2757eb486.svg",
+    "index.html": "/Lo-Ink-Tattoo/index.html",
+    "main.5eb215b2.css.map": "/Lo-Ink-Tattoo/static/css/main.5eb215b2.css.map",
+    "main.78415e0d.js.map": "/Lo-Ink-Tattoo/static/js/main.78415e0d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5eb215b2.css",
+    "static/js/main.78415e0d.js"
+  ]
+}
