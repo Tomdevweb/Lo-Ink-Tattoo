@@ -1,0 +1,428 @@
+@font-face {
+  font-family: go3;
+  src: url(/assets/go3v2.ttf);
+}
+
+@font-face {
+  font-family: titillium;
+  src: url(/assets/Titillium_Web/TitilliumWeb-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: titillium;
+  color: white;
+}
+
+main {
+  margin: 0 30px;
+}
+
+/* ----------------------------- Header + Nav ----------------------------- */
+
+.nav {
+  position: fixed;
+  z-index: 1;
+  top: 0%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+
+  img {
+    width: 60px;
+  }
+}
+
+.menu-container {
+  .menu-btn {
+    color: #fff;
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: titillium, sans-serif;
+  }
+
+  .menu-items {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 50px;
+    margin-top: 20px;
+    padding: 20px;
+    line-height: 2rem;
+    font-size: 20px;
+
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: white;
+    }
+  }
+}
+
+/* -----------------------------Title ----------------------------- */
+
+.title-container {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  margin-top: 90px;
+  overflow: hidden;
+
+  h1 {
+    text-align: center;
+    padding: 20px 0;
+    line-height: 17rem;
+    font-size: 380px;
+    font-weight: 500;
+    font-family: go3, sans-serif;
+    background-color: black;
+    text-shadow: 0px 0 rgba(168, 66, 61, 1), 0 10px rgba(168, 66, 61, 1), 5px 0 rgba(168, 66, 61, 1),
+      0 0px rgba(168, 66, 61, 1);
+  }
+}
+
+.title-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* ----------------------------- Second titles ----------------------------- */
+
+h2 {
+  font-size: 130px;
+  font-weight: 400;
+  font-family: go3, sans-serif;
+  line-height: 6rem;
+  margin-right: 150px;
+  letter-spacing: 5px;
+  /* text-shadow: 0px 0 rgba(168, 66, 61, 1), 0 5px rgba(168, 66, 61, 1), 5px 0 rgba(168, 66, 61, 1),
+    0 0px rgba(168, 66, 61, 1); */
+}
+
+/* ----------------------------- Carousel ----------------------------- */
+
+.carousel-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  .carousel-container {
+    width: 600px;
+    margin-top: 40px;
+    overflow: hidden;
+  }
+
+  .carousel-container:hover img {
+    transform: scale(1);
+    transition: all 0.3s linear;
+  }
+
+  .carousel-img {
+    width: 600px;
+    height: 900px;
+    object-fit: cover;
+  }
+}
+
+/* ----------------------------- About ----------------------------- */
+
+.apropos-section {
+  width: 100%;
+
+  .apropos-title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    margin-left: 70px;
+
+    div {
+      overflow: hidden;
+    }
+  }
+
+  .apropos-img {
+    display: flex;
+    position: relative;
+    width: 1000px;
+    left: 28.3%;
+    height: 95vh;
+    overflow: hidden;
+
+    img {
+      position: relative;
+      top: 50%;
+      width: 1100px;
+      align-self: flex-end;
+    }
+  }
+
+  .apropos-description {
+    font-size: 37px;
+    text-align: start;
+    width: 70%;
+    margin-top: 4rem;
+  }
+}
+
+/* ----------------------------- Galery ----------------------------- */
+
+.galery-section {
+  margin-top: 200px;
+
+  .galery-title-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 60px;
+
+    .galery-title1 {
+      overflow: hidden;
+      margin-left: 180px;
+    }
+
+    .galery-title2 {
+      margin-left: 240px;
+      overflow: hidden;
+    }
+  }
+
+  .galery-title-container {
+    p {
+      font-size: 25px;
+      margin-left: 100px;
+    }
+  }
+
+  .galery-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+
+    p {
+      font-size: 18px;
+      text-transform: uppercase;
+    }
+  }
+
+  .thumbs-container {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 60px 0;
+
+    h3 {
+      font-size: 80px;
+      text-align: center;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+    }
+    .thumbs-img {
+      width: 100%;
+      height: 240px;
+      display: flex;
+      justify-content: center;
+      gap: 0.5rem;
+      overflow: hidden;
+
+      img {
+        width: 180px;
+        height: 240px;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+/* ----------------------------- Faq ----------------------------- */
+
+.faq-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 200px 0;
+
+  .faq-title {
+    overflow: hidden;
+  }
+
+  .faq-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin-top: 50px;
+    position: relative;
+    z-index: -1;
+
+    p {
+      font-size: 22px;
+      line-height: 30px;
+    }
+  }
+}
+
+/* ----------------------------- Collapses Faq ----------------------------- */
+
+.collapse-container {
+  width: 50%;
+
+  .collapse-header-text {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    border-bottom: 1px solid white;
+    padding-bottom: 30px;
+  }
+
+  .collapse-btn {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: start;
+    font-size: 20px;
+    padding: 25px 0;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    color: white;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+
+  .collapse-btn:hover {
+    background-color: white;
+    color: black;
+    transition: all 0.2s linear;
+    padding-left: 15px;
+  }
+
+  .collapse-btn.active {
+    background-color: white;
+    color: black;
+  }
+
+  .collapse-icon {
+    width: 4%;
+    transform: rotate(45deg);
+  }
+
+  .collapse-content {
+    font-size: 17px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+    color: black;
+  }
+}
+
+/* ----------------------------- Contact ----------------------------- */
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  text-align: center;
+
+  .contact-title {
+    overflow: hidden;
+
+    h2 {
+      margin-right: 0;
+    }
+  }
+
+  .contact-content {
+    font-size: 35px;
+  }
+
+  .contact-text-wrapper {
+    display: flex;
+
+    img {
+      margin-left: 10px;
+      width: 30px;
+    }
+  }
+  .contact-link {
+    p {
+      font-size: 20px;
+    }
+
+    a {
+      font-size: 40px;
+      text-decoration: none;
+      color: white;
+      text-decoration: underline;
+    }
+  }
+
+  .location {
+    display: flex;
+
+    .location-icon {
+      width: 40px;
+      margin-right: 10px;
+    }
+    p {
+      align-self: self-end;
+      font-size: 22px;
+      padding-top: 22px;
+    }
+  }
+
+  .last-img-container {
+    margin: 40px 0;
+
+    .last-img {
+      width: 1100px;
+      height: 95vh;
+      border-radius: 400px;
+      object-fit: cover;
+    }
+  }
+}
+
+/* ----------------------------- Footer ----------------------------- */
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  font-size: 17px;
+  text-transform: uppercase;
+  height: 35px;
+
+  .links-container {
+    display: flex;
+    gap: 4rem;
+  }
+
+  .footer-links {
+    text-decoration: none;
+    color: white;
+    scroll-behavior: smooth;
+  }
+
+  .footer-links:hover {
+    border-bottom: 1px solid white;
+  }
+}
